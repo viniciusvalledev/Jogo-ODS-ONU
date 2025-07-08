@@ -345,3 +345,12 @@ body.landing-page .theme-switch-wrapper {
         display: none;
     }
 }
+/* --- CORREÇÃO PARA FIXAR O MODO ESCURO --- */
+
+/* Esta regra garante que o interruptor fique fixo no canto da tela */
+.theme-switch-wrapper {
+    position: fixed;   /* A propriedade chave! Prende o elemento na janela do navegador. */
+    top: 20px;         /* Distância do topo da tela. */
+    right: 20px;       /* Distância da direita da tela. */
+    z-index: 1000;     /* Garante que ele fique sobre todos os outros elementos da página. */
+}
