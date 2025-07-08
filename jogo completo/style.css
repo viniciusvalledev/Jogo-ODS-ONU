@@ -315,3 +315,33 @@ body.landing-page .theme-switch-wrapper {
     right: 20px;
     z-index: 999; /* Garante que ele fique sobre outros elementos */
 }
+/* --- NOVO: Estilos para as Imagens Laterais --- */
+
+/* Estilo base para ambas as imagens */
+.side-image {
+    position: fixed; /* Fixa a imagem na tela, mesmo com rolagem */
+    top: 50%; /* Alinha o topo da imagem no meio da tela */
+    transform: translateY(-50%); /* Centraliza a imagem verticalmente */
+    width: 350px; /* Largura da imagem - ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    opacity: 0.7; /* Deixa a imagem sutil e semitransparente */
+    z-index: -1; /* Coloca a imagem atrás de todo o conteúdo */
+    transition: opacity 0.3s;
+}
+
+/* Posicionamento específico para cada lado */
+.side-image-left {
+    left: 0px; /* Distância da borda esquerda */
+}
+
+.side-image-right {
+    right: 0px; /* Distância da borda direita */
+}
+
+/* IMPORTANTE: Responsividade para Celulares */
+/* Em telas com largura de 1200px ou menos, as imagens somem */
+@media (max-width: 1200px) {
+    .side-image {
+        display: none;
+    }
+}
