@@ -102,6 +102,7 @@ header {
     position: relative;
 }
 header h1 {
+    padding-top: 0.7em;
     font-family: 'Teko', sans-serif;
     font-size: 3.5em;
     color: var(--header-title-color);
