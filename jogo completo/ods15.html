@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODS 15: Vida Terrestre - Enigmas</title>
     <link rel="stylesheet" href="style.css">
-    
-    <link rel="icon" type="image/png" href="./imgs/logoODS.png">
+    <link rel="icon" type="image/png" href="imgs/logoODS.png">
+</head>
 <body>
-        <img src="./imgs/EsquerdaT.png" alt="Ilustração decorativa" class="side-image side-image-left">
-    <img src="./imgs/DireitaT.png" alt="Ilustração decorativa" class="side-image side-image-right">
 
     <header>
         <h1>ODS 15: Vida Terrestre</h1>
@@ -50,7 +48,14 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Em uma área desmatada, árvores cresceram em ritmo acelerado. Ninguém foi visto plantando mudas. Quem ou o que estava reflorestando a área?</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">Os "reflorestadores" voavam.</p>
+                            <p class="hint" data-hint="2">Pássaros, atraídos por poleiros artificiais, comiam frutas em outras áreas e deixavam cair as sementes ali.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
@@ -70,7 +75,14 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Uma cerca que dividia duas grandes áreas de floresta foi derrubada. Por causa disso, uma espécie de onça que estava desaparecendo voltou a prosperar. Por quê?</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">A cerca impedia que as onças encontrassem parceiros para se reproduzir.</p>
+                            <p class="hint" data-hint="2">A derrubada criou um "corredor ecológico", aumentando a variabilidade genética da espécie.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
@@ -90,7 +102,14 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Um agricultor começou a "contratar" abelhas para trabalhar em sua plantação. A produção de frutas dobrou, e ele ainda ganhou uma renda extra. Como?</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">As abelhas eram "alugadas" de um apicultor.</p>
+                            <p class="hint" data-hint="2">Além de pagarem pela polinização, as abelhas produziram mel, cujo lucro foi dividido.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
@@ -110,7 +129,14 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Em uma região ameaçada pela desertificação, agricultores começaram a construir "sorrisos" de pedra no chão. Por causa disso, a terra voltou a ficar verde.</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">Os "sorrisos" eram barreiras em formato de meia-lua.</p>
+                            <p class="hint" data-hint="2">As barreiras diminuíam a velocidade da enxurrada, permitindo que a água da chuva se infiltrasse no solo.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
@@ -130,14 +156,21 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Um drone sobrevoava uma floresta queimada "atirando" bolinhas de sementes no chão. Meses depois, a floresta começou a se regenerar em tempo recorde.</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">As bolinhas continham sementes, adubo e um composto protetor.</p>
+                            <p class="hint" data-hint="2">O drone realizava um reflorestamento de precisão, "plantando" milhares de sementes por dia em áreas de difícil acesso.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-header"><h2>ODS 15: Solução</h2></div>
                     <div class="card-content">
                         <div class="solution">
-                            <strong>A Solução:</strong> O drone estava realizando um reflorestamento de precisão. As bolinhas continham sementes de espécies nativas, adubo e um composto protetor. O drone podia "plantar" milhares de sementes por dia em áreas de difícil acesso, com uma taxa de sucesso muito maior do que o plantio manual.
+                            <strong>A Solução:</strong> O drone estava realizando um reflorestamento de precisão. As bolinhas continham sementes de espécies nativas, adubo e um composto protetor. O drone podia "plantar" milhares de sementes por dia em áreas de difícil acesso, com uma taxa de sucesso muito maior.
                         </div>
                         <button class="toggle-button">Voltar ao Enigma</button>
                     </div>
@@ -150,14 +183,21 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Um cão farejador se tornou o maior inimigo de caçadores ilegais de uma reserva, mas ele não farejava animais ou armas.</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">Ele farejava dispositivos de armazenamento eletrônico.</p>
+                            <p class="hint" data-hint="2">O cão encontrava DVDs e pen drives com fotos e vídeos dos crimes, que serviam como prova.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-header"><h2>ODS 15: Solução</h2></div>
                     <div class="card-content">
                         <div class="solution">
-                            <strong>A Solução:</strong> O cão foi treinado para farejar DVDs, cartões de memória e pen drives. Os fiscais descobriram que os caçadores filmavam e fotografavam suas atividades ilegais. Em barreiras de fiscalização, o cão encontrava os dispositivos de armazenamento escondidos nos veículos, fornecendo provas irrefutáveis dos crimes.
+                            <strong>A Solução:</strong> O cão foi treinado para farejar DVDs, cartões de memória e pen drives. Os fiscais descobriram que os caçadores filmavam suas atividades ilegais. Em barreiras de fiscalização, o cão encontrava os dispositivos de armazenamento escondidos nos veículos, fornecendo provas irrefutáveis dos crimes.
                         </div>
                         <button class="toggle-button">Voltar ao Enigma</button>
                     </div>
@@ -170,14 +210,21 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Cientistas analisaram o DNA encontrado na poeira de um filtro de ar e, com isso, conseguiram mapear a biodiversidade de uma floresta inteira.</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">A poeira continha material genético de todos os seres vivos da região.</p>
+                            <p class="hint" data-hint="2">A análise do "DNA ambiental" (eDNA) do ar permitiu identificar as espécies de forma não invasiva.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-header"><h2>ODS 15: Solução</h2></div>
                     <div class="card-content">
                         <div class="solution">
-                            <strong>A Solução:</strong> Eles estavam analisando o "eDNA" (DNA ambiental). Animais, plantas e fungos liberam constantemente vestígios de DNA no ambiente (em pele, fezes, pólen). Ao coletar e sequenciar o DNA do ar, os cientistas puderam identificar de forma não invasiva quais espécies viviam na área, incluindo animais raros e difíceis de observar.
+                            <strong>A Solução:</strong> Eles estavam analisando o "eDNA" (DNA ambiental). Animais e plantas liberam vestígios de DNA no ambiente. Ao coletar e sequenciar o DNA do ar, os cientistas puderam identificar de forma não invasiva quais espécies viviam na área, incluindo animais raros e difíceis de observar.
                         </div>
                         <button class="toggle-button">Voltar ao Enigma</button>
                     </div>
@@ -190,14 +237,21 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Uma comunidade indígena passou a vender para uma empresa farmacêutica o direito de estudar suas plantas, mas não as plantas em si.</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">O que eles venderam foi o conhecimento, não o recurso físico.</p>
+                            <p class="hint" data-hint="2">Eles fizeram um acordo de "repartição de benefícios" pelo conhecimento tradicional sobre as propriedades medicinais das plantas.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-header"><h2>ODS 15: Solução</h2></div>
                     <div class="card-content">
                         <div class="solution">
-                            <strong>A Solução:</strong> Eles fizeram um acordo de "repartição de benefícios" (Protocolo de Nagoya). A empresa pagou pelo acesso ao conhecimento tradicional da comunidade sobre as propriedades medicinais das plantas. Se um novo medicamento fosse desenvolvido, a comunidade receberia uma parte dos lucros, garantindo uma compensação justa pelo uso de seus recursos genéticos e conhecimento ancestral.
+                            <strong>A Solução:</strong> Eles fizeram um acordo de "repartição de benefícios" (Protocolo de Nagoya). A empresa pagou pelo acesso ao conhecimento tradicional da comunidade sobre as propriedades medicinais das plantas. Se um novo medicamento fosse desenvolvido, a comunidade receberia uma parte dos lucros.
                         </div>
                         <button class="toggle-button">Voltar ao Enigma</button>
                     </div>
@@ -210,14 +264,21 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Ex-caçadores de animais silvestres se tornaram os melhores protetores da floresta. Por quê?</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">Eles foram contratados para usar seu conhecimento para um novo propósito.</p>
+                            <p class="hint" data-hint="2">Eles viraram guardas-florestais e guias de ecoturismo, pois ninguém conhecia a floresta e os animais como eles.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-header"><h2>ODS 15: Solução</h2></div>
                     <div class="card-content">
                         <div class="solution">
-                            <strong>A Solução:</strong> Uma organização de conservação os contratou como guardas-florestais e guias de ecoturismo. Ninguém conhecia a floresta, os rastros e os hábitos dos animais como eles. Eles passaram a usar seu conhecimento profundo não para caçar, mas para proteger a vida selvagem e guiar turistas, ganhando um renda digna e se tornando heróis da conservação.
+                            <strong>A Solução:</strong> Uma organização de conservação os contratou como guardas-florestais e guias de ecoturismo. Ninguém conhecia a floresta, os rastros e os hábitos dos animais como eles. Eles passaram a usar seu conhecimento profundo não para caçar, mas para proteger a vida selvagem.
                         </div>
                         <button class="toggle-button">Voltar ao Enigma</button>
                     </div>
@@ -230,21 +291,28 @@
                     <div class="card-header"><h2>ODS 15: Vida Terrestre</h2></div>
                     <div class="card-content">
                         <p class="enigma">Um fazendeiro parou de arar a terra antes de plantar. Por causa disso, o solo de sua fazenda ficou mais fértil e ele economizou muito dinheiro.</p>
-                        <button class="toggle-button">Revelar Solução</button>
+                        <div class="hints-container">
+                            <p class="hint" data-hint="1">Ele passou a plantar diretamente sobre os restos da colheita anterior.</p>
+                            <p class="hint" data-hint="2">A técnica do "plantio direto" protege o solo, retém umidade e economiza combustível e mão de obra.</p>
+                        </div>
+                        <div class="buttons-wrapper">
+                            <button class="hint-button" data-hints-left="2">Pedir Dica (2)</button>
+                            <button class="toggle-button">Revelar Solução</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-header"><h2>ODS 15: Solução</h2></div>
                     <div class="card-content">
                         <div class="solution">
-                            <strong>A Solução:</strong> Ele adotou a técnica do "plantio direto". Em vez de revolver o solo (o que causa erosão e perda de matéria orgânica), ele plantava as sementes diretamente na palha da colheita anterior. A palha protege o solo, retém a umidade e se decompõe, virando adubo natural. Ele economizou em combustível, mão de obra e fertilizantes.
+                            <strong>A Solução:</strong> Ele adotou a técnica do "plantio direto". Em vez de revolver o solo (o que causa erosão), ele plantava as sementes diretamente na palha da colheita anterior. A palha protege o solo, retém a umidade e se decompõe, virando adubo natural.
                         </div>
                         <button class="toggle-button">Voltar ao Enigma</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card" id="ods15">
+             <div class="card" id="ods15">
             <img src="./imgs/ODS 15.jpg" width="400px" height="440px">
             <a href="https://brasil.un.org/pt-br/sdgs/15" target="_blank" rel="noopener noreferrer"<h2> Saiba Mais sobre a ODS 15!</h2> </a>
         </div>

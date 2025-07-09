@@ -43,5 +43,28 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+// --- NOVA LÓGICA DO SISTEMA DE DICAS (COM ANIMAÇÃO) ---
+const hintButtons = document.querySelectorAll('.hint-button');
+hintButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        const cardFront = this.closest('.card-front');
+        if (!cardFront) return;
 
+        // Encontra a próxima dica que ainda não tem a classe 'visible'
+        const nextHint = cardFront.querySelector('.hint:not(.visible)');
+
+        if (nextHint) {
+            // Adiciona a classe para torná-la visível com animação CSS
+            nextHint.classList.add('visible'); // <--- O jeito novo e melhor!
+
+            let hintsLeft = parseInt(this.dataset.hintsLeft) - 1;
+            this.dataset.hintsLeft = hintsLeft;
+            this.textContent = `Pedir Dica (${hintsLeft})`;
+
+            if (hintsLeft <= 0) {
+                this.disabled = true;
+            }
+        }
+    });
+});
 });
