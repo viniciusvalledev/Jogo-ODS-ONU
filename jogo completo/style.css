@@ -157,7 +157,7 @@ header p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 12px 8px; /* <-- A MUDANÇA ESTÁ AQUI */
     padding: 10px 0;
 }
 .nav-link {
