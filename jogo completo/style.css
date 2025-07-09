@@ -116,7 +116,7 @@ header p {
     margin: 0 auto 20px auto;
 }
 .theme-switch-wrapper {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
     display: flex;
@@ -310,7 +310,7 @@ footer {
 }
 /* --- NOVO: Posição do interruptor na página inicial --- */
 body.landing-page .theme-switch-wrapper {
-    position: fixed; /* Fica fixo na tela mesmo com rolagem */
+    position: absolute; /* Fica fixo na tela mesmo com rolagem */
     top: 20px;
     right: 20px;
     z-index: 999; /* Garante que ele fique sobre outros elementos */
@@ -344,13 +344,4 @@ body.landing-page .theme-switch-wrapper {
     .side-image {
         display: none;
     }
-}
-/* --- CORREÇÃO PARA FIXAR O MODO ESCURO --- */
-
-/* Esta regra garante que o interruptor fique fixo no canto da tela */
-.theme-switch-wrapper {
-    position: fixed !important;
-    top: 20px !important;
-    right: 20px !important;
-    z-index: 1000 !important;
 }
