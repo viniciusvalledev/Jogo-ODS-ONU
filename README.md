@@ -35,24 +35,6 @@ Este projeto foi construído utilizando tecnologias web fundamentais, sem a nece
 
 ---
 
-## 🚀 Como Executar Localmente
-
-Para executar este projeto na sua máquina local, siga os passos abaixo. Não é necessário nenhum servidor ou instalação complexa.
-
-1.  *Clone o repositório:*
-    bash
-    git clone [https://github.com/](https://github.com/)[seu-usuario]/[seu-repositorio].git
-    
-
-2.  *Navegue até a pasta do projeto:*
-    bash
-    cd [nome-da-pasta-do-repositorio]
-    
-
-3.  *Abra o arquivo index.html:*
-    * Simplesmente abra o arquivo index.html no seu navegador de preferência (Google Chrome, Firefox, etc.) e comece a jogar!
-
----
 
 ## 📂 Estrutura do Projeto
 
