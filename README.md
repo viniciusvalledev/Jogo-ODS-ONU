@@ -5,7 +5,7 @@ Bem-vindo ao *Código ODS: Enigmas do Futuro! Este é um jogo interativo de enig
 
 O objetivo principal do projeto é conscientizar e educar sobre os desafios e, principalmente, as soluções inovadoras relacionadas a cada ODS de uma maneira lúdica, envolvente e interativa. Cada carta é um convite para descobrir uma história de impacto real ou potencial que está ajudando a moldar um futuro mais sustentável para todos.
 
-*[Acesse a demonstração ao vivo aqui!](https://seu-link-aqui.netlify.app)* (Lembre-se de substituir este link pelo seu link publicado na Netlify ou outra plataforma)
+*[Acesse a demonstração ao vivo aqui!](https://enigma-do-futuro.vercel.app/)* (Lembre-se de substituir este link pelo seu link publicado na Netlify ou outra plataforma)
 
 ---
 
