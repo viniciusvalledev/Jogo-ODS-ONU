@@ -418,6 +418,7 @@ footer {
 #ods15 .card-front .card-header, #ods15 .enigma { border-color: #56C02B; } #ods15 .card-front .card-header { background-color: #56C02B; }
 #ods16 .card-front .card-header, #ods16 .enigma { border-color: #00689D; } #ods16 .card-front .card-header { background-color: #00689D; }
 #ods17 .card-front .card-header, #ods17 .enigma { border-color: #19486A; } #ods17 .card-front .card-header { background-color: #19486A; }
+#ods18 .card-front .card-header, #ods18 .enigma { border-color: #7A300F; } #ods18 .card-front .card-header { background-color: #7A300F; }
 .card-back .card-header {
     background-color: #6c757d;
 }
